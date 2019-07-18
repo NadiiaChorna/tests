@@ -17,7 +17,7 @@ class Headline extends Component {
 }
 
 Headline.propTypes = {
-    header: PropTypes.string,
+header: PropTypes.string,
     desc: PropTypes.string,
     tempArr: PropTypes.arrayOf(PropTypes.shape({
         fName: PropTypes.string,
